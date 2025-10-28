@@ -4,7 +4,7 @@ import styles from './home.module.css';
 export default function Page() {
   return (
     <>
-    <Image className={styles.imgAutumn} src="/IMG_2743.jpg" alt="AutumnImg" width={300} height={480} />
+    <Image className={styles.imgAutumn} src="/IMG_2743.jpg" alt="AutumnImg" width={300} height={480}  priority/>
     <h1 className={styles.title}>Hello, Next.js!</h1>
 
     <p className={styles.textIntro}>Ik ga testen hoe next.js en react werken om zo te kijken welke framework het beste is en welke ik het fijnst vind werken.</p>
