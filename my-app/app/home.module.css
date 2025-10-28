@@ -1,0 +1,17 @@
+.title{
+    font-size: 5em;
+    text-align: center;
+}
+
+.textIntro, 
+.textFramework{
+    margin: 1em;
+    padding: .5em;
+    text-align: center;
+}
+
+.imgAutumn{
+    display: flex;
+    justify-self: center;
+    margin: 2em;
+}

@@ -1,4 +1,5 @@
   import Header from '../components/Header';
+  import './globals.css';
 
 export default function DashboardLayout({ children }) {
   return (
@@ -7,9 +8,7 @@ export default function DashboardLayout({ children }) {
         <title>React/Next.js</title>
       </head>
       <body>
-        <header>
         <Header />
-        </header>
         <main>{children}</main>
       </body>
     </html>
