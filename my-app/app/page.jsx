@@ -14,12 +14,12 @@ export default function Page() {
   <legend>Select your framework</legend>
 
   <div>
-    <input type="radio" id="svelte" name="drone" value="svelte" defaultChecked />
-    <label htmlFor="svelte">Svelte</label>
+    <input type="radio" id="11ty" name="drone" value="11ty"/>
+    <label htmlFor="11ty">11ty</label>
   </div>
 
   <div>
-    <input type="radio" id="reactnext.js" name="drone" value="react/next.js" />
+    <input type="radio" id="reactnext.js" name="drone" value="react/next.js" defaultChecked/>
     <label htmlFor="react/next.js">React/Next.js</label>
   </div>
 
